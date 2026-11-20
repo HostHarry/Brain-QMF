@@ -1,0 +1,47 @@
+# Brain-OF Base + QMF on LEMON (fMRI + EEG, age-group classification).
+# Identical to configs/BrainOF_Base_LEMON_multimodal.yaml except: batch 64 x 8 accumulation (= global 512 on
+# one GPU), print_freq, and mixup/cutmix switched off (QMF needs a per-sample loss history).
+# ------ basic settings ------
+root: /path/to/lmdb_root
+out_root: /path/to/outputs
+num_workers: 8
+print_freq: 20
+seed: 3407
+
+# ------ dataset settings ------
+dataset:
+    name: LEMON
+    signal_size: [246, 2000] # max(modality1, modality2)
+
+# ------ model settings ------
+model:
+  name: brainof_base_50M_A22M
+  max_seq_length: 1952
+  num_classes: 2
+  init_scale: 0.1
+  droppath: 0.1
+
+# ------ train settings ------
+train:
+  batch_size: 64
+  accumulation_steps: 8
+  epochs: 50
+  clip_grad: 5.0
+  aux_loss_free_alpha: 1e-3
+  metrics: ['bac', 'aucpr', 'auroc']
+  main_metric: bac
+  optimizer:
+    base_lr: 4e-5 # global bsz 512
+    weight_decay: 1e-1
+  lr_scheduler:
+    warmup_epochs: 5
+    warmup_lr: 4e-7
+    min_lr: 4e-7
+  criterion:
+    task: classification
+    label_smoothing: 0.1
+
+# ------ augmentation settings ------
+aug:
+  mixup_alpha: 0.0
+  cutmix_alpha: 0.0

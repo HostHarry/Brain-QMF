@@ -1,0 +1,76 @@
+{
+  "streams": [
+    "fused"
+  ],
+  "seed": 3407,
+  "best_epoch": 5,
+  "train_time": "0:43:29",
+  "val": {
+    "bac": 0.7872092527263852,
+    "auroc": 0.7993936626849779,
+    "loss": 0.5279779642381192,
+    "bac_batchavg": 0.7984007263467656,
+    "n": 2443,
+    "bac_fused": 0.7872092527263852,
+    "w_mean_fused": 1.0,
+    "w_negative_frac_fused": 0.0,
+    "pearson_w_loss_fused": null
+  },
+  "test": {
+    "bac": 0.6825501205591246,
+    "auroc": 0.7485906666441848,
+    "loss": 0.5736773618276877,
+    "bac_batchavg": 0.745096487748627,
+    "n": 2556,
+    "bac_fused": 0.6825501205591246,
+    "w_mean_fused": 1.0,
+    "w_negative_frac_fused": 0.0,
+    "pearson_w_loss_fused": null
+  },
+  "noise": {
+    "0.0": {
+      "bac": 0.6825501205591246,
+      "auroc": 0.7485906666441848,
+      "loss": 0.5736773618276877,
+      "bac_batchavg": 0.745096487748627,
+      "n": 2556,
+      "bac_fused": 0.6825501205591246,
+      "w_mean_fused": 1.0,
+      "w_negative_frac_fused": 0.0,
+      "pearson_w_loss_fused": null
+    },
+    "0.5": {
+      "bac": 0.5703373969345946,
+      "auroc": 0.6920712001393877,
+      "loss": 1.1326847695781965,
+      "bac_batchavg": 0.31782932529527685,
+      "n": 2556,
+      "bac_fused": 0.5703373969345946,
+      "w_mean_fused": 1.0,
+      "w_negative_frac_fused": 0.0,
+      "pearson_w_loss_fused": null
+    },
+    "1.0": {
+      "bac": 0.5607558972802535,
+      "auroc": 0.6284622107564594,
+      "loss": 1.209340772718331,
+      "bac_batchavg": 0.29467641419704677,
+      "n": 2556,
+      "bac_fused": 0.5607558972802535,
+      "w_mean_fused": 1.0,
+      "w_negative_frac_fused": 0.0,
+      "pearson_w_loss_fused": null
+    },
+    "2.0": {
+      "bac": 0.5545003119361964,
+      "auroc": 0.6227223037190663,
+      "loss": 1.213836114171525,
+      "bac_batchavg": 0.28381385321021074,
+      "n": 2556,
+      "bac_fused": 0.5545003119361964,
+      "w_mean_fused": 1.0,
+      "w_negative_frac_fused": 0.0,
+      "pearson_w_loss_fused": null
+    }
+  }
+}

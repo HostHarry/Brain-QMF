@@ -1,0 +1,7 @@
+{
+  "status": "superseded_partial_run",
+  "reason": "User-approved restart at batch64 accumulation8",
+  "old_batch_size": 16,
+  "old_accumulation_steps": 32,
+  "stopped_utc": "2026-11-12T21:20:07.928823+00:00"
+}

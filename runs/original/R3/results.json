@@ -1,0 +1,76 @@
+{
+  "streams": [
+    "fused"
+  ],
+  "seed": 3407,
+  "best_epoch": 6,
+  "train_time": "0:42:49",
+  "val": {
+    "bac": 0.8111985193868378,
+    "auroc": 0.8660101961986222,
+    "loss": 0.5065798823871527,
+    "bac_batchavg": 0.8189437098666125,
+    "n": 2443,
+    "bac_fused": 0.8111985193868378,
+    "w_mean_fused": 1.0,
+    "w_negative_frac_fused": 0.0,
+    "pearson_w_loss_fused": null
+  },
+  "test": {
+    "bac": 0.7031716323536851,
+    "auroc": 0.7786707302679279,
+    "loss": 0.5747726702820714,
+    "bac_batchavg": 0.760731612053579,
+    "n": 2556,
+    "bac_fused": 0.7031716323536851,
+    "w_mean_fused": 1.0,
+    "w_negative_frac_fused": 0.0,
+    "pearson_w_loss_fused": null
+  },
+  "noise": {
+    "0.0": {
+      "bac": 0.7031716323536851,
+      "auroc": 0.7786707302679279,
+      "loss": 0.5747726702820714,
+      "bac_batchavg": 0.760731612053579,
+      "n": 2556,
+      "bac_fused": 0.7031716323536851,
+      "w_mean_fused": 1.0,
+      "w_negative_frac_fused": 0.0,
+      "pearson_w_loss_fused": null
+    },
+    "0.5": {
+      "bac": 0.5513472271401353,
+      "auroc": 0.643247564930503,
+      "loss": 1.3373922223403047,
+      "bac_batchavg": 0.28659382113429416,
+      "n": 2556,
+      "bac_fused": 0.5513472271401353,
+      "w_mean_fused": 1.0,
+      "w_negative_frac_fused": 0.0,
+      "pearson_w_loss_fused": null
+    },
+    "1.0": {
+      "bac": 0.544826074493736,
+      "auroc": 0.621624204000652,
+      "loss": 1.338543975297274,
+      "bac_batchavg": 0.28702539882353545,
+      "n": 2556,
+      "bac_fused": 0.544826074493736,
+      "w_mean_fused": 1.0,
+      "w_negative_frac_fused": 0.0,
+      "pearson_w_loss_fused": null
+    },
+    "2.0": {
+      "bac": 0.5351602677592864,
+      "auroc": 0.6305888568521985,
+      "loss": 1.3212764444112404,
+      "bac_batchavg": 0.287289016544529,
+      "n": 2556,
+      "bac_fused": 0.5351602677592864,
+      "w_mean_fused": 1.0,
+      "w_negative_frac_fused": 0.0,
+      "pearson_w_loss_fused": null
+    }
+  }
+}

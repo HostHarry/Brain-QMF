@@ -1,0 +1,101 @@
+{
+  "streams": [
+    "m1",
+    "m2"
+  ],
+  "seed": 3407,
+  "best_epoch": 4,
+  "train_time": "0:52:14",
+  "val": {
+    "bac": 0.6261048909840896,
+    "auroc": 0.5987130735361724,
+    "loss": 2.0767455085398376,
+    "bac_batchavg": 0.46772443456847873,
+    "n": 2443,
+    "bac_m1": 0.6163818503241013,
+    "w_mean_m1": 0.5,
+    "w_negative_frac_m1": 0.0,
+    "pearson_w_loss_m1": null,
+    "bac_m2": 0.5,
+    "w_mean_m2": 0.5,
+    "w_negative_frac_m2": 0.0,
+    "pearson_w_loss_m2": null
+  },
+  "test": {
+    "bac": 0.6141644325290438,
+    "auroc": 0.59455741593179,
+    "loss": 2.1854906544812223,
+    "bac_batchavg": 0.31433857304872875,
+    "n": 2556,
+    "bac_m1": 0.6092493297587132,
+    "w_mean_m1": 0.5,
+    "w_negative_frac_m1": 0.0,
+    "pearson_w_loss_m1": null,
+    "bac_m2": 0.5,
+    "w_mean_m2": 0.5,
+    "w_negative_frac_m2": 0.0,
+    "pearson_w_loss_m2": null
+  },
+  "noise": {
+    "0.0": {
+      "bac": 0.6141644325290438,
+      "auroc": 0.59455741593179,
+      "loss": 2.1854906544812223,
+      "bac_batchavg": 0.31433857304872875,
+      "n": 2556,
+      "bac_m1": 0.6092493297587132,
+      "w_mean_m1": 0.5,
+      "w_negative_frac_m1": 0.0,
+      "pearson_w_loss_m1": null,
+      "bac_m2": 0.5,
+      "w_mean_m2": 0.5,
+      "w_negative_frac_m2": 0.0,
+      "pearson_w_loss_m2": null
+    },
+    "0.5": {
+      "bac": 0.5556300268096515,
+      "auroc": 0.6060941372856492,
+      "loss": 2.2861342329374503,
+      "bac_batchavg": 0.21746153936665424,
+      "n": 2556,
+      "bac_m1": 0.5542895442359249,
+      "w_mean_m1": 0.5,
+      "w_negative_frac_m1": 0.0,
+      "pearson_w_loss_m1": null,
+      "bac_m2": 0.5,
+      "w_mean_m2": 0.5,
+      "w_negative_frac_m2": 0.0,
+      "pearson_w_loss_m2": null
+    },
+    "1.0": {
+      "bac": 0.555183199285076,
+      "auroc": 0.5707547169811321,
+      "loss": 2.2935099777108254,
+      "bac_batchavg": 0.2166790667531957,
+      "n": 2556,
+      "bac_m1": 0.5540661304736372,
+      "w_mean_m1": 0.5,
+      "w_negative_frac_m1": 0.0,
+      "pearson_w_loss_m1": null,
+      "bac_m2": 0.5,
+      "w_mean_m2": 0.5,
+      "w_negative_frac_m2": 0.0,
+      "pearson_w_loss_m2": null
+    },
+    "2.0": {
+      "bac": 0.555183199285076,
+      "auroc": 0.5686069941153659,
+      "loss": 2.2993210361970235,
+      "bac_batchavg": 0.2166790667531957,
+      "n": 2556,
+      "bac_m1": 0.5540661304736372,
+      "w_mean_m1": 0.5,
+      "w_negative_frac_m1": 0.0,
+      "pearson_w_loss_m1": null,
+      "bac_m2": 0.5,
+      "w_mean_m2": 0.5,
+      "w_negative_frac_m2": 0.0,
+      "pearson_w_loss_m2": null
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "train": 9000,
+  "val": 1950,
+  "test_at_best": 480,
+  "noise_test": 160
+}

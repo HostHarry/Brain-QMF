@@ -1,0 +1,23 @@
+{
+  "cfg": "configs/BrainOF_Base_LEMON_qmf.yaml",
+  "batch_size": 64,
+  "accumulation_steps": 8,
+  "disable_amp": false,
+  "eval_mode": false,
+  "streams": "m1",
+  "fusion": "qmf",
+  "lamb": 0.1,
+  "alpha": -0.1,
+  "beta": 0.0,
+  "temperature": 1.0,
+  "rank_mode": "paper",
+  "reg_start_epoch": 1,
+  "lr_scale": "m1=1.875,m2=0.125,fused=1.0",
+  "seed": 3407,
+  "tag": "R1",
+  "noise_sigmas": "0,0.5,1,2",
+  "noise_seed": 0,
+  "no_save": true,
+  "batch_trace": true,
+  "pretrained_model": "brainof_base_50M_A22M.pth"
+}
