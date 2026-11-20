@@ -1,8 +1,12 @@
-# Brain-QMF: LEMON experiment results
+# Brain-QMF: project code and LEMON experiment results
 
 Two local runs of the R1-R8 Brain-OF Base + QMF ablation matrix. Both use seed
 3407; these are repeated runs, **not** two independent seeds. The archive
 contains aggregate experiment outputs, not the LEMON participant dataset.
+
+The [project code and run instructions](brainof/README.md) include the Brain-OF
+backbone, QMF, MoE telemetry, LEMON preparation and both experiment launchers.
+Inputs and pretrained checkpoints must be supplied separately.
 
 ## Clean test balanced accuracy (%)
 
@@ -72,8 +76,8 @@ used for selection. The always-active shared expert is excluded.
 
 ## Scope and integrity
 
-This is a results-only export. No raw EEG/fMRI, participant identifiers,
-sample indices or labels, per-window logits/weights, model weights, raw machine
+The published results are aggregates. No raw EEG/fMRI, actual participant
+identifiers, per-window records, pretrained or trained weights, raw machine
 logs, account credentials, or unrelated LLaDA/MMaDA results are included.
 `scripts/export_results.py` builds the aggregate tables/traces from the private
 run tree. Check the exported files with `sha256sum -c SHA256SUMS`.
